@@ -1,0 +1,31 @@
+var {
+	int a;
+	int b;
+	int c;
+	int k;
+	float d;
+	float e;
+}
+
+ini {
+	print("digite a idade:");
+	read(a);
+	print("digite a dsadda");
+	read(b);
+	print("digite adasda");
+	read(c);
+
+	if(a > b) {
+
+		print("a maior que b");
+	} else {
+		if(b > a) {
+			print("b maior que a");
+		} else {
+			print("iguais!");
+		}
+	}
+	for(k = 0; k < a; k = k + 1) {
+		print("oooooooooooooooo");
+	}
+}

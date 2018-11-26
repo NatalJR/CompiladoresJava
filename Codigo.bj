@@ -1,0 +1,10 @@
+var {
+	int a = 10;
+}
+
+ini {
+	a = 3 + a;
+	read(a);
+	print(a);
+	print("#Hello!");
+}
